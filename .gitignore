@@ -48,3 +48,9 @@ Thumbs.db
 
 # Node (si se usa para Claude Code)
 node_modules/
+
+# Configuración privada por entorno; conservar plantillas sin credenciales.
+.env.*
+!.env.example
+!.env.sample
+!.env.template
